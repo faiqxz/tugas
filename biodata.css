@@ -407,6 +407,10 @@
   flex-direction: column;
   justify-content: center;
   color: #fff;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 
 .slider {
@@ -423,6 +427,11 @@
   left: 0;
   opacity: 0;
   transition: opacity 0.5s ease-in-out;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 
 .slide.active {
