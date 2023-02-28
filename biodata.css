@@ -358,21 +358,20 @@ img[src="./Image/gear5.gif"]{
 .main__btn {
   font-size: 1.8rem;
   background: #833ab4;
-  background: -webkit-linear-gradient(
-    160deg,
-    #f4c4f3 0%,
-    #fc67fa 50%,
-    #ffffff 100%
-  );
+  background: -webkit-linear-gradient(    160deg,    #f4c4f3 0%,    #fc67fa 50%,    #ffffff 100%  );
   background: linear-gradient(to rightrgb(255, 0, 0), #fc67fa);
-  padding: 20px 60px;
+  padding: 20px 40px;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   margin-top: 2rem;
   cursor: pointer;
   position: relative;
   transition: all 0.35s;
   outline: none;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
 
 .main__btn a {
@@ -403,12 +402,14 @@ img[src="./Image/gear5.gif"]{
 }
 
 .main__img--container {
+  margin-top: 4px;
+  height: 250px;
   text-align: center;
 }
 
 .main__img--card {
   margin: 10px;
-  height: 200px;
+  height: 250px;
   width: 500px;
   border-radius: 4px;
   display: flex;
@@ -562,19 +563,18 @@ img[src="./Image/gear5.gif"]{
   padding: 0 24px;
   height: 425px;
   width: px;
-  border-radius: 4px;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background: -webkit-linear-gradient(
-    160deg,
-    #f4c4f3 0%,
-    #fc67fa 50%,
-    #ffffff 100%
-  );
+  background: -webkit-linear-gradient(    160deg,    #f4c4f3 0%,    #fc67fa 50%,    #ffffff 100%  );
   background: linear-gradient(to right, #f4c4f3 0%, #fc67fa 50%,);
   transition: 0.3s ease-in;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
 }
 
 .services__card h2 {
