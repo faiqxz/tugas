@@ -225,7 +225,7 @@
   padding: 30px;
 }
 
-img[src="./Image/gear5.gif"]{
+img[src="./Image/gear5.gif"] {
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -358,7 +358,12 @@ img[src="./Image/gear5.gif"]{
 .main__btn {
   font-size: 1.8rem;
   background: #833ab4;
-  background: -webkit-linear-gradient(    160deg,    #f4c4f3 0%,    #fc67fa 50%,    #ffffff 100%  );
+  background: -webkit-linear-gradient(
+    160deg,
+    #f4c4f3 0%,
+    #fc67fa 50%,
+    #ffffff 100%
+  );
   background: linear-gradient(to rightrgb(255, 0, 0), #fc67fa);
   padding: 20px 40px;
   border: none;
@@ -568,8 +573,13 @@ img[src="./Image/gear5.gif"]{
   flex-direction: column;
   justify-content: center;
   color: #fff;
-  background: -webkit-linear-gradient(    160deg,    #f4c4f3 0%,    #fc67fa 50%,    #ffffff 100%  );
-  background: linear-gradient(to right, #f4c4f3 0%, #fc67fa 50%,);
+  background: -webkit-linear-gradient(
+    160deg,
+    #f4c4f3 0%,
+    #fc67fa 50%,
+    #ffffff 100%
+  );
+  background: linear-gradient(to right, #f4c4f3 0%, #fc67fa 50%);
   transition: 0.3s ease-in;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
@@ -615,7 +625,6 @@ img[src="./Image/gear5.gif"]{
 
 .forms {
   font-size: 1.2rem;
-  
 }
 
 @media screen and (max-width: 1300px) {
@@ -629,7 +638,6 @@ img[src="./Image/gear5.gif"]{
     grid-template-columns: 1fr;
   }
 }
-
 
 /* footer */
 .footer__container {
@@ -703,6 +711,30 @@ img[src="./Image/gear5.gif"]{
 .social__icon--link {
   color: #fff;
   font-size: 24px;
+}
+
+.social__icons i {
+  transform: translateY(0);
+  transition: 0.3s;
+  opacity: 0.8;
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+
+.social__icons i:hover {
+  transform: translateY(-4px);
+  opacity: 1;
+  transition: 0.3s;
+  -webkit-transform: translateY(-4px);
+  -moz-transform: translateY(-4px);
+  -ms-transform: translateY(-4px);
+  -o-transform: translateY(-4px);
 }
 
 .social__media {
